@@ -11,7 +11,7 @@ def read_file(file_path):
         content = file.read()
         print(f"File size: {file_size} bytes")  # New feature
         return content
-
+#
 def process_text(text):
     """ Enhanced text processing with unique word count """
     words = set(text.lower().strip().split())
